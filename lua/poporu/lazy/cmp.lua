@@ -23,7 +23,6 @@ return {
             appearance = {
                 nerd_font_variant = 'mono'
             },
-            signature = { enable = true }
         },
     },
 }
