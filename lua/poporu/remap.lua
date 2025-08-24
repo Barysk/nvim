@@ -1,5 +1,6 @@
 vim.g.mapleader = " "
 vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
+vim.keymap.set("n", "<leader>pp", ":e#<CR>")
 
 -- moving line
 vim.keymap.set("v", "<C-j>", ":m '>+1<CR>gv=gv")
