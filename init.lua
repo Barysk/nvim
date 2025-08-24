@@ -1,4 +1,4 @@
--- bk | 夢理守
+-- bk
 -- Yep, this is my neovim config
 
 require("poporu")
