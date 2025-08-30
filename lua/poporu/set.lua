@@ -7,6 +7,10 @@ vim.opt.softtabstop = 8
 vim.opt.shiftwidth = 8
 vim.opt.expandtab = false
 
+vim.keymap.set("n", "<C-t><C-t>", ":set tabstop=8 softtabstop=8 shiftwidth=8 noexpandtab<CR>")
+vim.keymap.set("n", "<C-t><C-s>", ":set tabstop=4 softtabstop=4 shiftwidth=4 expandtab<CR>")
+vim.keymap.set("n", "<C-t><C-b>", ":set tabstop=8 softtabstop=8 shiftwidth=8 expandtab<CR>")
+
 vim.opt.smartindent = true
 
 vim.opt.wrap = true
