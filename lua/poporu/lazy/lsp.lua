@@ -22,10 +22,22 @@ return {
                     -- Load luvit types when the `vim.uv` word is found
                     { path = "${3rd}/luv/library", words = { "vim%.uv" } },
                 },
+                -- servers = {
+                --     basedpyright = {
+                --         settings = {
+                --             basedpyright = {
+                --                 analysis = {
+                --                     typeCheckingMode = "standard",
+                --                     diagnosticMode = "workspace",
+                --                 },
+                --             },
+                --         },
+                --     },
+                -- },
             },
         },
         config = function ()
-            -- config = function()
+                -- config = function()
                 --     local capabilities = require('blink.cmp').get_lsp_capabilities()
                 --     require("lspconfig").lua_ls.setup { capabilities = capabilities }
                 -- end,
