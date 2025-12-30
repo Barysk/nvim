@@ -13,17 +13,22 @@ vim.keymap.set("n", "<leader>Y", [["+Y]])
 -- delete without copying
 vim.keymap.set({ "n", "v" }, "<leader>d", "\"_d")
 
+--tabs
+vim.keymap.set("n", "<leader>t", ":tabe<CR>",   { desc = "New tab"      })
+vim.keymap.set("n", "<M-n>", ":tabn<CR>",       { desc = "Next tab"     })
+vim.keymap.set("n", "<M-p>", ":tabp<CR>",       { desc = "Previous tab" })
+
 -- splits
 vim.keymap.set("n", "<leader>v", ":vsplit<CR>", { desc = "Enter Vsplit"        })
 vim.keymap.set("n", "<leader>h", ":split<CR>",  { desc = "Enter Hsplit"        })
-vim.keymap.set("n", "<C-h>",     "<C-w>h",      { desc = "Move to left split"  })
-vim.keymap.set("n", "<C-l>",     "<C-w>l",      { desc = "Move to right split" })
-vim.keymap.set("n", "<C-j>",     "<C-w>j",      { desc = "Move to below split" })
-vim.keymap.set("n", "<C-k>",     "<C-w>k",      { desc = "Move to above split" })
-vim.keymap.set("n", "<C-Left>",  "<C-w><",      { desc = "Resize split left"   })
-vim.keymap.set("n", "<C-Right>", "<C-w>>",      { desc = "Resize split right"  })
-vim.keymap.set("n", "<C-Up>",    "<C-w>+",      { desc = "Resize split up"     })
-vim.keymap.set("n", "<C-Down>",  "<C-w>-",      { desc = "Resize split down"   })
+vim.keymap.set("n", "<M-h>",     "<C-w>h",      { desc = "Move to left split"  })
+vim.keymap.set("n", "<M-l>",     "<C-w>l",      { desc = "Move to right split" })
+vim.keymap.set("n", "<M-j>",     "<C-w>j",      { desc = "Move to below split" })
+vim.keymap.set("n", "<M-k>",     "<C-w>k",      { desc = "Move to above split" })
+vim.keymap.set("n", "<M-Left>",  "<C-w><",      { desc = "Resize split left"   })
+vim.keymap.set("n", "<M-Right>", "<C-w>>",      { desc = "Resize split right"  })
+vim.keymap.set("n", "<M-Up>",    "<C-w>+",      { desc = "Resize split up"     })
+vim.keymap.set("n", "<M-Down>",  "<C-w>-",      { desc = "Resize split down"   })
 
 
 
