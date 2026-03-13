@@ -1,8 +1,8 @@
-function LoadDeboruColorscheme(color)
-	color = color or "deboru"
+function LoadZeroColorscheme(color)
+	color = color or "zero"
 	vim.cmd.colorscheme(color)
 end
 
 return {
-	LoadDeboruColorscheme()
+	LoadZeroColorscheme()
 }
