@@ -10,15 +10,14 @@ local base_colors = {
 	gray_dark    = "#333333",
 	black        = "#111111",
 	--
-	accent       = "#FF8888",
-	second       = "#FFBBDD",
+	rose         = "#FFBBDD",
 	green        = "#BBFFDD",
 	yellow       = "#FFD700",
 	blue         = "#BBDDFF",
 }
 
 local git_colors = {
-	white = base_colors.white,
+	white = "#FFFFFF",
 	red   = "#FF8888",
 	green = "#88FF88",
 	blue  = "#8888FF",
@@ -39,11 +38,11 @@ local clr = {
 	main_ter    = base_colors.gray_dark,
 	main_qua    = base_colors.black,
 	--
-	accent      = base_colors.accent,
+	accent      = base_colors.blue,
 	comment     = base_colors.gray,
 	string      = base_colors.green,
 	attention   = base_colors.yellow,
-	type        = base_colors.second,
+	type        = base_colors.rose,
 	logical     = base_colors.blue,
 }
 
